@@ -1,4 +1,4 @@
-<img style="margin-left:70px" src="https://raw.githubusercontent.com/omarwagih/motifx/master/inst/extdata/motifx-logo.png">
+<img style="margin-left:70px" src="https://raw.githubusercontent.com/omarwagih/motifx/master/inst/extdata/motifx-logo-white.png">
 
 # Introduction
 This package contains a useable implementation the motif-x tool in the R programming language. motif-x (short for motif extractor) is a software tool designed to extract overrepresented patterns from any sequence data set. The algorithm is an iterative strategy which builds successive motifs through comparison to a dynamic statistical background. For more information, please refer to the original [motif-x resource](http://motif-x.med.harvard.edu/). Please note that the current implementation only supports sequences with a fixed length (i.e. pre-aligned) and have a fixed central residue. For example, phosphorylation sites. 
