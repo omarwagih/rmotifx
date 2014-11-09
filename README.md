@@ -4,7 +4,11 @@
 This package contains a useable implementation the motif-x tool in the R programming language. motif-x (short for motif extractor) is a software tool designed to extract overrepresented patterns from any sequence data set. The algorithm is an iterative strategy which builds successive motifs through comparison to a dynamic statistical background. For more information, please refer to the original [motif-x resource](http://motif-x.med.harvard.edu/). Please note that the current implementation only supports sequences with a fixed length (i.e. pre-aligned) and have a fixed central residue. For example, phosphorylation sites. 
 
 # How to install?
-The motif-x R package can be directly installed from github. First, ensure the `devotools` package is installed. Then run the following:
+The motif-x R package can be directly installed from github. First, ensure the `devotools` package is installed:
+
+    install.packages('devtools')
+
+Then install motif-x:
 
     require(devotools)
     install_github('motifx', 'omarwagih')
