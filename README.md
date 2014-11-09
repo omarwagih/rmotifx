@@ -14,17 +14,22 @@ Then install motif-x:
     install_github('motifx', 'omarwagih')
     
 # How to use?
-The package contains the function `motifx` which does everything. For a basic run, you will need a foreground and background set of sequences. 
+To get started, fire up the motif-x package:
+    
+    # Load the package
+    require(motifx)
 
-We can go ahead and use the examples provided with the package: 
+The package contains the function `motifx` which does everything. For a simple run, you will need a foreground and background set of sequences. 
+
+We can go ahead and use the sample data provided with the package: 
      
     # Get paths to sample files
     fg.path = system.file("extdata", "fg-data-ck2.txt", package="motifx")
     bg.path = system.file("extdata", "bg-data-serine.txt", package="motifx")
     
     # Read in sequences
-    fg.seqs = readLines( fg.path )
-    bg.seqs = readLines( bg.path )
+    fg.seqs = readLines(fg.path)
+    bg.seqs = readLines(bg.path)
     
     # You can take a look at the format of the sample data
     head(fg.seqs)
