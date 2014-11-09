@@ -1,12 +1,12 @@
 <img style="margin-left:70px" src="https://raw.githubusercontent.com/omarwagih/motifx/master/inst/extdata/motifxlogowhite.gif">
 
-------------
+<br>
 
 # Introduction
-This package contains a useable implementation the motif-x tool in the R programming language. motif-x aims at extracting overrepresented sequence motifs. For more information, please refer to the original [motif-x resource](http://motif-x.med.harvard.edu/). The current implementation only supports sequences with a fixed length (i.e. pre-aligned) and have a fixed central residue. For example, phosphorylation sites. 
+This package contains a useable implementation the motif-x tool in the R programming language. motif-x (short for motif extractor) is a software tool designed to extract overrepresented patterns from any sequence data set. The algorithm is an iterative strategy which builds successive motifs through comparison to a dynamic statistical background. For more information, please refer to the original [motif-x resource](http://motif-x.med.harvard.edu/). Please note that the current implementation only supports sequences with a fixed length (i.e. pre-aligned) and have a fixed central residue. For example, phosphorylation sites. 
 
 # How to install?
-The motif-x R package can be directly installed from github. First ensure the `devotools` package is installed. Then run the following:
+The motif-x R package can be directly installed from github. First, ensure the `devotools` package is installed. Then run the following:
 
     require(devotools)
     install_github('motifx', 'omarwagih')
@@ -28,14 +28,14 @@ We can go ahead and use the examples provided with the package:
     head(fg.seqs)
     head(bg.seqs)
     
-The foreground data here represents phosphorylation binding sites of Casein Kinase 2. The negative data represents 10,000 random serine-centered sites.
+Here, the foreground data represents phosphorylation binding sites of Casein Kinase 2. The negative data represents 10,000 random serine-centered sites.
 
 To start the program, run the following:
 
     # mot = motifx(fg.seqs, bg.seqs, central.res = 'S', min.seqs = 20, pval.cutoff = 1e-6)
     # head(mot)
 
-That's it!
+It's that easy!
 
 For detailed explanations of all parameters and output, check out the documentation by typing `?motifx`. You can also refer to the original motif-x [resource](http://motif-x.med.harvard.edu/motif-x.html) or [paper](http://motif-x.med.harvard.edu/publications/Chou_Schwartz_motif-x_CPBI_2011.pdf). 
 
