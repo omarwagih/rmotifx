@@ -1,5 +1,5 @@
 <img style="margin-left:70px" src="https://raw.githubusercontent.com/omarwagih/motifx/master/inst/extdata/motifx-logo-white.png">
-#### An R package for discovery of biological sequence motifs
+#### Discovery of biological sequence motifs in R
 
 ## Introduction
 This package contains a useable implementation the motif-x tool in the R programming language. motif-x (short for motif extractor) is a software tool designed to extract overrepresented patterns from any sequence data set. The algorithm is an iterative strategy which builds successive motifs through comparison to a dynamic statistical background. For more information, please refer to the original [motif-x resource](http://motif-x.med.harvard.edu/). Please note that the current implementation only supports sequences with a fixed length (i.e. pre-aligned) and have a fixed central residue. For example, phosphorylation sites. 
@@ -70,6 +70,8 @@ For detailed explanations of all parameters and output, check out the documentat
 - Add support for DNA sequences. Currently, only protein supported.
 - Allow motif discovery in non-centered k-mers
 
+## Feedback
+If you have any feedback or suggestions, please drop me a line at (wagih(at)ebi.ac.uk) or open an issue on github
 
 ## Disclaimer
 The software provided on this website may be used freely by users from academic and non-profit organizations. Users from the commercial sector should contact Daniel Schwartz (daniel.schwartz(at)uconn.edu).
