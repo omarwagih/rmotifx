@@ -1,4 +1,7 @@
-# Todo: implement degenerate enrichment
+# motif-x implementation in R
+# Created on : 09-11-14 
+# Author     : omarwagih
+# Todo       : Implement degenerate enrichment, add DNA support, add non-centered site support
 
 # All amino acids
 .GetAA <- function(){
