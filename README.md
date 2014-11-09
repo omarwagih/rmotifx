@@ -1,5 +1,4 @@
-
-<img style="display: block; margin-left: auto; margin-right: auto" src="inst/extdata/motifxlogowhite.gif">
+<img style="margin-left:70px" src="https://raw.githubusercontent.com/omarwagih/motifx/master/inst/extdata/motifxlogowhite.gif">
 
 ------------
 
