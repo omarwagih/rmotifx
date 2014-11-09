@@ -70,4 +70,5 @@ For detailed explanations of all parameters and output, check out the documentat
 - Allow motif discovery in non-centered k-mers
 
 
-
+# Disclaimer
+The software provided on this website may be used freely by users from academic and non-profit organizations. Users from the commercial sector should contact Daniel Schwartz (daniel.schwartz(at)uconn.edu).
