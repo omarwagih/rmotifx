@@ -1,0 +1,13 @@
+Package: motifx
+Type: Package
+Title: An iterative statistical approach to the discovery of biological
+    sequence motifs
+Version: 1.0
+Date: 2014-11-08
+Author: Omar Wagih
+Maintainer: Omar Wagih <wagih@ebi.ac.uk>
+Description: motif-x (short for motif extractor) is a software tool designed to
+    extract overrepresented patterns from any sequence data set. The algorithm
+    is an iterative strategy which builds successive motifs through comparison
+    to a dynamic statistical background.
+License: GPL-3
