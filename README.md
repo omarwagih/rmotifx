@@ -30,8 +30,8 @@ Here, the foreground data represents phosphorylation binding sites of Casein Kin
 
 To start the program, run the following:
 
-    # mot = motifx(fg.seqs, bg.seqs, central.res = 'S', min.seqs = 20, pval.cutoff = 1e-6)
-    # head(mot)
+    mot = motifx(fg.seqs, bg.seqs, central.res = 'S', min.seqs = 20, pval.cutoff = 1e-6)
+    head(mot)
 
 It's that easy!
 
