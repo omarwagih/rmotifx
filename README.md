@@ -42,6 +42,8 @@ To start the program, run the following:
     mot = motifx(fg.seqs, bg.seqs, central.res = 'S', min.seqs = 20, pval.cutoff = 1e-6)
     print(mot)
 
+The results returned should have the following format:
+
 ```
 | motif           | score            | fg.matches | fg.size | bg.matches | bg.size | fold.increase    |
 |-----------------|------------------|------------|---------|------------|---------|------------------|
