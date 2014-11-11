@@ -1,7 +1,7 @@
 <img src="https://raw.githubusercontent.com/omarwagih/motifx/master/inst/extdata/rmotifx-logo-lg.png">
 
 ![Indent](http://placehold.it/350x10/ffffff/ffffff)
-[![Twitter](https://raw.githubusercontent.com/omarwagih/motifx/master/inst/extdata/twitter.png)]()
+[![Twitter](https://raw.githubusercontent.com/omarwagih/motifx/master/inst/extdata/twitter.png)](https://twitter.com/intent/tweet?text=Static%20social%20media%20%22share%22%20buttons&url=http%3a%2f%2fdaniemon.com%2fblog%2fstatic-social-media-share-buttons%2f)
 [![Facebook](https://raw.githubusercontent.com/omarwagih/motifx/master/inst/extdata/facebook.png)](http://google.com)
 [![Google](https://raw.githubusercontent.com/omarwagih/motifx/master/inst/extdata/gplus.png)](http://google.com)
 
