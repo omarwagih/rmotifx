@@ -1,4 +1,4 @@
-<img style="margin-left:70px" src="https://raw.githubusercontent.com/omarwagih/motifx/master/inst/extdata/rotifx-logo.png">
+<img style="margin-left:70px" src="https://raw.githubusercontent.com/omarwagih/motifx/master/inst/extdata/rmotifx-logo.png">
 #### Discovery of biological sequence motifs in R
 
 ## Introduction
