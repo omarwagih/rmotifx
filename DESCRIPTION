@@ -1,4 +1,4 @@
-Package: motifx
+Package: rmotifx
 Type: Package
 Title: An iterative statistical approach to the discovery of biological
     sequence motifs

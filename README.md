@@ -1,4 +1,4 @@
-<img style="margin-left:70px" src="https://raw.githubusercontent.com/omarwagih/motifx/master/inst/extdata/motifx-logo-white.png">
+<img style="margin-left:70px" src="https://raw.githubusercontent.com/omarwagih/motifx/master/inst/extdata/rotifx-logo.png">
 #### Discovery of biological sequence motifs in R
 
 ## Introduction
@@ -12,7 +12,7 @@ The motif-x R package can be directly installed from github. First, ensure the `
 Then install motif-x:
 
     require(devotools)
-    install_github('motifx', 'omarwagih')
+    install_github('rmotifx', 'omarwagih')
     
 ## How to use?
 To get started, fire up the motif-x package:

@@ -1,14 +1,14 @@
-setwd('~/Development/motifx/package/')
+setwd('~/Development/motifx/')
 
-remove.packages('motifx')
+remove.packages('rmotifx')
 version = '1.0'
 
-targz = sprintf('motifx/build/motifx_%s.tar.gz', version)
+targz = sprintf('rmotifx/build/rmotifx_%s.tar.gz', version)
 
 system(sprintf('rm -rf %s', targz))
-system('R CMD build motifx')
+system('R CMD build rmotifx')
 
-system(sprintf('mv motifx_%s.tar.gz %s', version, targz))
+system(sprintf('mv rmotifx_%s.tar.gz %s', version, targz))
 
 install.packages(targz, repos = NULL, type="source")
 #detach("package:motifx", unload=TRUE)
