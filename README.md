@@ -9,7 +9,7 @@ The motif-x R package can be directly installed from github. First, ensure the `
 
     install.packages('devtools')
 
-Then install motif-x:
+Then install rmotifx:
 
     require(devotools)
     install_github('rmotifx', 'omarwagih')
@@ -18,7 +18,7 @@ Then install motif-x:
 To get started, fire up the motif-x package:
     
     # Load the package
-    require(motifx)
+    require(rmotifx)
 
 The package contains the function `motifx` which does everything. For a simple run, you will need a foreground and background set of sequences. 
 
