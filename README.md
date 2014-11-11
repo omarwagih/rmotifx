@@ -1,9 +1,9 @@
 <img src="https://raw.githubusercontent.com/omarwagih/motifx/master/inst/extdata/rmotifx-logo-lg.png">
 
 ![Indent](http://placehold.it/350x10/ffffff/ffffff)
-<img src="https://raw.githubusercontent.com/omarwagih/motifx/master/inst/extdata/twitter.png" href="https://twitter.com/intent/tweet?text=Discovery+of+biological+sequence+motifs+in+R%3a+github.com%2fomarwagih%2frmotifx+%40omarwagih" alt="Tweet">
-[![Facebook](https://raw.githubusercontent.com/omarwagih/motifx/master/inst/extdata/facebook.png)](http://google.com)
-[![Google](https://raw.githubusercontent.com/omarwagih/motifx/master/inst/extdata/gplus.png)](http://google.com)
+[![Twitter](https://raw.githubusercontent.com/omarwagih/motifx/master/inst/extdata/twitter.png)](https://twitter.com/intent/tweet?text=Discovery+of+biological+sequence+motifs+in+R%3a+github.com%2fomarwagih%2frmotifx+%40omarwagih)
+[![Facebook](https://raw.githubusercontent.com/omarwagih/motifx/master/inst/extdata/facebook.png)](https://www.facebook.com/sharer/sharer.php?u=https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fdaniemon.com%2fblog%2fstatic-social-media-share-buttons%2f)
+[![Google](https://raw.githubusercontent.com/omarwagih/motifx/master/inst/extdata/gplus.png)](https://plus.google.com/share?url=https://github.com/omarwagih/rmotifx/&hl=en)
 
 ## Introduction
 This package contains a useable implementation the motif-x tool in the R programming language. motif-x (short for motif extractor) is a software tool designed to extract overrepresented patterns from any sequence data set. The algorithm is an iterative strategy which builds successive motifs through comparison to a dynamic statistical background. For more information, please refer to the original [motif-x resource](http://motif-x.med.harvard.edu/). Please note that the current implementation only supports sequences with a fixed length (i.e. pre-aligned) and have a fixed central residue. For example, phosphorylation sites. 
