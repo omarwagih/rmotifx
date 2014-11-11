@@ -1,6 +1,6 @@
 <img src="https://raw.githubusercontent.com/omarwagih/motifx/master/inst/extdata/rmotifx-logo-lg.png">
 
-![Indent](http://placehold.it/350x1/ffffff/ffffff)
+![Indent](http://placehold.it/250x1/ffffff/ffffff)
 [![Twitter](https://raw.githubusercontent.com/omarwagih/motifx/master/inst/extdata/twitter.png)](https://twitter.com/intent/tweet?text=Discovery+of+biological+sequence+motifs+in+R%3a+github.com%2fomarwagih%2frmotifx+%40omarwagih)
 [![Facebook](https://raw.githubusercontent.com/omarwagih/motifx/master/inst/extdata/facebook.png)](https://www.facebook.com/sharer/sharer.php?u=https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fdaniemon.com%2fblog%2fstatic-social-media-share-buttons%2f)
 [![Google](https://raw.githubusercontent.com/omarwagih/motifx/master/inst/extdata/gplus.png)](https://plus.google.com/share?url=https://github.com/omarwagih/rmotifx/&hl=en)
