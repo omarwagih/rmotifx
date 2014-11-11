@@ -10,7 +10,7 @@ The motif-x R package can be directly installed from github. First, ensure the `
 
 Then install rmotifx:
 
-    require(devotools)
+    require(devtools)
     install_github('rmotifx', 'omarwagih')
     
 ## How to use?
