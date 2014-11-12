@@ -2,7 +2,7 @@
 [![rmotifx](https://rawgit.com/omarwagih/rmotifx/master/inst/extdata/rmotifx-logo.svg)](https://github.com/omarwagih/rmotifx)
 
 [![Twitter](https://raw.githubusercontent.com/omarwagih/motifx/master/inst/extdata/twitter.png)](https://twitter.com/intent/tweet?text=Discovery+of+biological+sequence+motifs+in+R%3a+github.com%2fomarwagih%2frmotifx+%40omarwagih)
-[![Facebook](https://raw.githubusercontent.com/omarwagih/motifx/master/inst/extdata/facebook.png)](https://www.facebook.com/sharer/sharer.php?u=Discovery%20of%20biological%20sequence%20motifs%20in%20R%3A%20github.com%2Fomarwagih%2Frmotifx)
+[![Facebook](https://raw.githubusercontent.com/omarwagih/motifx/master/inst/extdata/facebook.png)](https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgithub.com%2Fomarwagih%2Frmotifx)
 [![Google](https://raw.githubusercontent.com/omarwagih/motifx/master/inst/extdata/gplus.png)](https://plus.google.com/share?url=https://github.com/omarwagih/rmotifx/&hl=en)
 
 
