@@ -1,9 +1,13 @@
 
 [![rmotifx](https://rawgit.com/omarwagih/rmotifx/master/inst/extdata/rmotifx-logo.svg)](https://github.com/omarwagih/rmotifx)
 
-[![Twitter](https://raw.githubusercontent.com/omarwagih/motifx/master/inst/extdata/twitter.png)](https://twitter.com/intent/tweet?text=Discovery+of+biological+sequence+motifs+in+R%3a+github.com%2fomarwagih%2frmotifx+%40omarwagih)
-[![Facebook](https://raw.githubusercontent.com/omarwagih/motifx/master/inst/extdata/facebook.png)](https://www.facebook.com/sharer/sharer.php?u=https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fdaniemon.com%2fblog%2fstatic-social-media-share-buttons%2f)
-[![Google](https://raw.githubusercontent.com/omarwagih/motifx/master/inst/extdata/gplus.png)](https://plus.google.com/share?url=https://github.com/omarwagih/rmotifx/&hl=en)
+
+
+<a href="#" onClick="MyWindow=window.open('https://twitter.com/intent/tweet?text=Discovery+of+biological+sequence+motifs+in+R%3a+github.com%2fomarwagih%2frmotifx+%40omarwagih','MyWindow',width=300,height=300); return false;"><img src="https://raw.githubusercontent.com/omarwagih/motifx/master/inst/extdata/twitter.png" alt="Tweet"></a>
+
+<a href="#" onClick="MyWindow=window.open('https://www.facebook.com/sharer/sharer.php?u=https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fdaniemon.com%2fblog%2fstatic-social-media-share-buttons%2f','MyWindow',width=300,height=300); return false;"><img src="https://raw.githubusercontent.com/omarwagih/motifx/master/inst/extdata/facebook.png" alt="Facebook share"></a>
+
+<a href="#" onClick="MyWindow=window.open('https://plus.google.com/share?url=https://github.com/omarwagih/rmotifx/&hl=en','MyWindow',width=300,height=300); return false;"><img src="https://raw.githubusercontent.com/omarwagih/motifx/master/inst/extdata/gplus.png" alt="Google plus share"></a>
 
 ## Introduction
 This package contains a useable implementation the motif-x tool in the R programming language. motif-x (short for motif extractor) is a software tool designed to extract overrepresented patterns from any sequence data set. The algorithm is an iterative strategy which builds successive motifs through comparison to a dynamic statistical background. For more information, please refer to the original [motif-x resource](http://motif-x.med.harvard.edu/). Please note that the current implementation only supports sequences with a fixed length (i.e. pre-aligned) and have a fixed central residue. For example, phosphorylation sites. 
