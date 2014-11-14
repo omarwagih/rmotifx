@@ -12,41 +12,50 @@ This package contains a useable implementation the motif-x tool in the R program
 ## How to install?
 The motif-x R package can be directly installed from github. First, ensure the `devotools` package is installed:
 
-    install.packages('devtools')
+```splus
+install.packages('devtools')
+```
 
 Then install rmotifx:
 
-    require(devtools)
-    install_github('rmotifx', 'omarwagih')
-    
+```splus
+require(devtools)
+install_github('rmotifx', 'omarwagih')
+```
+
 ## How to use?
 To get started, fire up the motif-x package:
-    
-    # Load the package
-    require(rmotifx)
+
+```splus
+require(rmotifx)
+```
 
 The package contains the function `motifx` which does everything. For a simple run, you will need a foreground and background set of sequences. 
 
 We can go ahead and use the sample data provided with the package: 
-     
-    # Get paths to sample files
-    fg.path = system.file("extdata", "fg-data-ck2.txt", package="motifx")
-    bg.path = system.file("extdata", "bg-data-serine.txt", package="motifx")
-    
-    # Read in sequences
-    fg.seqs = readLines(fg.path)
-    bg.seqs = readLines(bg.path)
-    
-    # You can take a look at the format of the sample data
-    head(fg.seqs)
-    head(bg.seqs)
-    
+
+```splus
+# Get paths to sample files
+fg.path = system.file("extdata", "fg-data-ck2.txt", package="motifx")
+bg.path = system.file("extdata", "bg-data-serine.txt", package="motifx")
+
+# Read in sequences
+fg.seqs = readLines(fg.path)
+bg.seqs = readLines(bg.path)
+
+# You can take a look at the format of the sample data
+head(fg.seqs)
+head(bg.seqs)
+```
+
 Here, the foreground data represents phosphorylation binding sites of Casein Kinase 2. The negative data represents 10,000 random serine-centered sites.
 
 To start the program, run the following:
 
-    mot = motifx(fg.seqs, bg.seqs, central.res = 'S', min.seqs = 20, pval.cutoff = 1e-6)
-    print(mot)
+```splus
+mot = motifx(fg.seqs, bg.seqs, central.res = 'S', min.seqs = 20, pval.cutoff = 1e-6)
+print(mot)
+```
 
 The results returned should have the following format:
 
