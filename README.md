@@ -78,6 +78,10 @@ It's that easy!
 For detailed explanations of all parameters and output, check out the documentation by typing `?motifx`. You can also refer to the original motif-x [resource](http://motif-x.med.harvard.edu/motif-x.html) or [paper](http://motif-x.med.harvard.edu/publications/Chou_Schwartz_motif-x_CPBI_2011.pdf). 
 
 
+## Citation
+If you use rmotifx please do cite the following paper:
+Wagih O, Sugiyama N, Ishihama Y, Beltrao P. (2015) Uncovering phosphorylation-based specificities through functional interaction networks (2015). *Mol. Cell. Proteomics* [PUBMED](http://www.ncbi.nlm.nih.gov/pubmed/26572964)
+
 ## Todo
 
 - Add support for degenerate motifs
