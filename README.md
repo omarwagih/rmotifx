@@ -80,6 +80,8 @@ For detailed explanations of all parameters and output, check out the documentat
 
 ## Citation
 If you use rmotifx please do cite the following paper:
+
+
 Wagih O, Sugiyama N, Ishihama Y, Beltrao P. (2015) Uncovering phosphorylation-based specificities through functional interaction networks (2015). *Mol. Cell. Proteomics* [PUBMED](http://www.ncbi.nlm.nih.gov/pubmed/26572964)
 
 ## Todo
