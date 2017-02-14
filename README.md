@@ -36,8 +36,8 @@ We can go ahead and use the sample data provided with the package:
 
 ```splus
 # Get paths to sample files
-fg.path = system.file("extdata", "fg-data-ck2.txt", package="motifx")
-bg.path = system.file("extdata", "bg-data-serine.txt", package="motifx")
+fg.path = system.file("extdata", "fg-data-ck2.txt", package = "rmotifx")
+bg.path = system.file("extdata", "bg-data-serine.txt", package = "rmotifx")
 
 # Read in sequences
 fg.seqs = readLines(fg.path)
