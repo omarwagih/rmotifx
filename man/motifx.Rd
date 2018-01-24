@@ -71,8 +71,8 @@ Find overrepresented sequence motifs
 }
 \examples{
 # Get paths to sample files
-fg.path = system.file("extdata", "fg-data-ck2.txt", package="motifx")
-bg.path = system.file("extdata", "bg-data-serine.txt", package="motifx")
+fg.path = system.file("extdata", "fg-data-ck2.txt", package="rmotifx")
+bg.path = system.file("extdata", "bg-data-serine.txt", package="rmotifx")
 
 # Read in sequences
 fg.seqs = readLines( fg.path )
