@@ -15,7 +15,7 @@ Then install rmotifx:
 
 ```splus
 require(devtools)
-install_github('rmotifx', 'omarwagih')
+install_github('omarwagih/rmotifx')
 ```
 
 ## How to use?
